@@ -1,0 +1,5 @@
+# SSH VERSION
+- ogarnięcie userów i szyfrowanie hasła
+- panel logowania dla normalnego usera
+- wykonanie polecenia w powłoce z przechwyceniem stdout, strerr (via ssh client)
+- implementacja wykonywania poleceń zgodnie ze wzorcem "Executor" tm

@@ -18,5 +18,6 @@ from django.contrib import admin
 from websh import views
 
 urlpatterns = [
+	url(r'^admin/', admin.site.urls),
 	url(r'^$', views.login_form, name='login'),
 ]
